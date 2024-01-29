@@ -22,7 +22,6 @@ jobs:
         python -m pip install --upgrade pip
         echo `pwd`
         echo `ls -lrt`
-        cd bikeshare_model
         cd requirements       
         echo "current directory"
         pwd
