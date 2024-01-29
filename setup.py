@@ -12,7 +12,7 @@ EMAIL = "------"
 AUTHOR = "----------"
 REQUIRES_PYTHON = ">=3.7.0"
 
-
+#added a test comment
 # The rest no need to touch too much :)
 # ------------------------------------------------
 # Except, perhaps the License and Trove Classifiers!
