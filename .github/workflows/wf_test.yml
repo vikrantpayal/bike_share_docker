@@ -41,6 +41,16 @@ jobs:
         python -m build
     - name: api_dockerizing
       run: |
-        mv bikeshare_model/dist/*.whl bikeshare_model/bikeshare_model_api/
-        cd bikeshare_model/bikeshare_model_api
+        echo "dockerizing..."
+        echo "current dir1"
+        pwd
+        ls -lrt
+        cp ./dist/
+        mv ./dist/*.whl ./bikeshare_model_api/
+        pwd
+        echo "current dir2"
+        cd bikeshare_model_api
+        echo "current dir3"
+        pwd
+        ls -lrt
         docker build -t bike_share_app . 
