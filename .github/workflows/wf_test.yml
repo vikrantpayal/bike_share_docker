@@ -44,8 +44,7 @@ jobs:
         echo "dockerizing..."
         echo "current dir1"
         pwd
-        ls -lrt
-        cp ./dist/
+        ls -lrt        
         mv ./dist/*.whl ./bikeshare_model_api/
         pwd
         echo "current dir2"
