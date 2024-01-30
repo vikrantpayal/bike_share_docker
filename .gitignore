@@ -2,4 +2,10 @@ bikeshare_model/__pycache__/
 bikeshare_model/config/__pycache__/
 bikeshare_model/processing/__pycache__/
 tests/__pycache__/
+bikeshare_model_api/bikeshare_model-0.0.1-py3-none-any.whl
 venv
+bikeshare_model_api/app/__pycache__/
+bikeshare_model_api/app/schemas/__pycache__/
+bikeshare_model/trained_models/bikeshare__model_output_v0.0.1.pkl
+dist/
+bikeshare_model.egg-info/
